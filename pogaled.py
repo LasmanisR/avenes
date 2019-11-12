@@ -7,7 +7,7 @@ GPIO.setwarnings(False)
 button = 4
 
 GPIO.setup(button, GPIO.IN, GPIO.PUD_UP)
-GPIO.SETUP(18, GPIO.OUT)
+GPIO.setup(18, GPIO.OUT)
 
 try:
     while True:
