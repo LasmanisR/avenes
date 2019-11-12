@@ -12,7 +12,7 @@ GPIO.setup(18, GPIO.OUT)
 try:
     while True:
          button_state = GPIO.input(button)
-         if button_state == GPIO.HIGH:
+         if button_state == GPIO.input:
              GPIO.output(18,GPIO.HIGH)
              print('pods ir nospiests')
              time.sleep(1)
