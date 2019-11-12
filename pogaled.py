@@ -22,6 +22,7 @@ try:
              time.sleep(1)
          else:
              GPIO.output(18,GPIO.LOW)
+         
          if button2_state == GPIO.LOW:
              GPIO.output(27,GPIO.HIGH)
              print('pods ir nospiests')
