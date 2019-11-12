@@ -5,10 +5,9 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 button = 4
-led = 18
 
 GPIO.setup(button, GPIO.IN, GPIO.PUD_UP)
-GPIO.SETUP(led, GPIO.OUT)
+GPIO.SETUP(18, GPIO.OUT)
 
 try:
     while True:
