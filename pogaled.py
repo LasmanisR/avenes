@@ -8,6 +8,7 @@ button = 4
 button2 = 17
 
 GPIO.setup(button, GPIO.IN, GPIO.PUD_UP)
+GPIO.setup(button2, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(18, GPIO.OUT)
 GPIO.setup(27, GPIO.OUT)
 
