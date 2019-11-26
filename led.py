@@ -5,6 +5,7 @@ GPIO.setwarnings(False)
 GPIO.setup(18,GPIO.OUT)
 
 counter = 0
+
 try:
     while counter < 30:
         print ('LED 1 on')
